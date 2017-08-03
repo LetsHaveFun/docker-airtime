@@ -1,9 +1,0 @@
-version: '2'
-services:
-  airtime:
-    image: blane44/docker-airtime
-    ports:
-    - "8080:80"
-    - "8000:8000"
-    env_file:
-    - "variables.env"
